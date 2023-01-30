@@ -4,7 +4,7 @@ import { getCast, getCreatives } from "./getPeople/getPeople";
 import getTitle from "./getTitle";
 import getShortDescription from "./getShortDescription";
 
-const useCastSheet = () => {
+const GetCastSheet = () => {
   const [title, setTitle] = useState("");
   const [cast, setCast] = useState([]);
   const [creatives, setCreatives] = useState([]);
@@ -39,4 +39,4 @@ const useCastSheet = () => {
   };
 };
 
-export default useCastSheet;
+export default GetCastSheet;

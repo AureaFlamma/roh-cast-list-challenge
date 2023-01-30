@@ -1,11 +1,11 @@
-import useCastSheet from "./getCastSheet";
-import { Heading, Text, VStack, Box } from "@chakra-ui/react";
+import GetCastSheet from "./getCastSheet";
+import { Heading, Text, VStack } from "@chakra-ui/react";
 import { ListItem, UnorderedList } from "@chakra-ui/react";
 
 function App() {
   let performanceDate = new Date("2023-03-10T19:00:00+00:00");
 
-  let sheet = useCastSheet();
+  let sheet = GetCastSheet();
 
   return (
     <VStack align="start" m="10%">
